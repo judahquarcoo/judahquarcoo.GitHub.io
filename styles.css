@@ -1,0 +1,129 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdf5e6;
+    scroll-behavior: smooth;
+}
+
+header {
+    height: 100vh;
+    background: url('https://static.wixstatic.com/media/nsplsh_31576d6c416959676e6f49~mv2.jpg/v1/fill/w_640,h_480,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/nsplsh_31576d6c416959676e6f49~mv2.jpg') no-repeat center center/cover;
+    color:azure;
+    display: flex;
+    flex-direction: column;
+    justify-content:stretch;
+    align-items: top;
+    text-align:center;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #d2691e;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.section {
+    padding: 20px;
+}
+
+#about {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.menu-category {
+    margin-bottom: 40px;
+}
+
+.menu-category h2 {
+    border-bottom: 2px solid #d2691e;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.menu-item {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item img {
+    max-width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.menu-item h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.menu-item p {
+    color: #555;
+    font-size: 0.9em;
+}
+
+.menu-item .price {
+    font-weight: bold;
+    color: #d2691e;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: #d2691e;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer .social-media a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer .social-media a:hover {
+    text-decoration: underline;
+}
